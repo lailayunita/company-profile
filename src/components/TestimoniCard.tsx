@@ -11,7 +11,7 @@ const TestimoniCard: FC<TestimoniCard> = ({ name, profilepic, testimoni }) => {
     <>
       <Card bg="#f5f5f5">
         <CardBody display="flex" flexDirection="column" gap={2}>
-          <Avatar src={profilepic} />
+          <Avatar src={profilepic} name="profile picture" />
           <Text fontWeight="semibold">{name}</Text>
           <Text>{testimoni}</Text>
         </CardBody>

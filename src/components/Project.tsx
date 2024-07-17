@@ -50,7 +50,6 @@ const Project = async () => {
                   title={project.fields.title}
                   place={project.fields.place}
                   alt="Cultural Mosaic Cente Picture"
-                  href=""
                 />
               );
             })}

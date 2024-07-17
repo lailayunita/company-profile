@@ -15,7 +15,7 @@ const TeamCard: FC<TeamCard> = ({ name, profilepic }) => {
       <Card>
         <CardBody color="#848483">
           <VStack gap={1}>
-            <Avatar src={profilepic} size="lg" />
+            <Avatar src={profilepic} name="profile picture" size="lg" />
             <Text color="black">{name}</Text>
             <Text color="#f55e41">Founder & CEO</Text>
             <Text textAlign="center">
