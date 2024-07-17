@@ -1,4 +1,4 @@
-import { Avatar, Card, CardBody, Flex, Image, Text } from "@chakra-ui/react";
+import { Card, CardBody, Flex, Image, Text } from "@chakra-ui/react";
 import { FC } from "react";
 
 interface Values {
@@ -13,7 +13,13 @@ const Values: FC<Values> = ({ value, desc, icon }) => {
       <Card>
         <CardBody>
           <Flex direction="column" gap={2}>
-            <Image src={icon} width="50px" />
+            <Image
+              src={icon}
+              width="50px"
+              height="50px"
+              objectFit="cover"
+              alt="icon"
+            />
             <Text color="#f55e41" fontWeight="semibold">
               {value}
             </Text>

@@ -34,7 +34,7 @@ const Vision = () => {
           </Text>
         </Flex>
         <ImageComponent
-          src="https://images.unsplash.com/photo-1693639385915-d7a7ddefe8e1?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          src="/service6.webp"
           alt="construction"
           height={{ base: "250px", md: "500px" }}
         />

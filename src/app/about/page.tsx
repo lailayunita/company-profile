@@ -38,7 +38,7 @@ const AboutPage = async () => {
             </Text>
           </Flex>
           <ImageComponent
-            src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            src="/about1.webp"
             alt="our history"
             height={{ base: "200px", md: "250px" }}
           />
@@ -51,7 +51,7 @@ const AboutPage = async () => {
         >
           <Box gridArea="image">
             <ImageComponent
-              src="https://images.unsplash.com/photo-1516216628859-9bccecab13ca?q=80&w=2938&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src="/about2.webp"
               alt="our history"
               height={{ base: "200px", md: "250px" }}
             />
@@ -87,7 +87,7 @@ const AboutPage = async () => {
             </Text>
           </Flex>
           <ImageComponent
-            src="https://images.unsplash.com/photo-1508450859948-4e04fabaa4ea?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fGNvbnN0cnVjdGlvbnxlbnwwfHwwfHx8Mg%3D%3D"
+            src="/about3.webp"
             alt="our history"
             height={{ base: "200px", md: "250px" }}
           />

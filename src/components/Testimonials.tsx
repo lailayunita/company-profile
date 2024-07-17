@@ -6,7 +6,7 @@ import { getEntriesHomepage } from "@/libs/contentful";
 const Testimonials = async () => {
   const testimonials = await getEntriesHomepage();
   return (
-    <Container maxW="7xl">
+    <Container maxW="7xl" pb={8}>
       <VStack>
         <Text color="#F55E41" fontSize="lg" fontWeight="semibold">
           Our Testimonials
